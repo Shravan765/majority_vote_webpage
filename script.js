@@ -66,11 +66,11 @@ function checking_majority_element(event)
             if(output == null)
                 {
                     document.getElementById("output2").innerHTML = "";
-                    output_part.innerHTML = "No element occurs more than half the time\n";
+                    output_part.innerHTML = "No character occurs more than half the time\n";
                 }
             else
                 {
-                    output_part.innerHTML = "Element " + output+" occurs more than half the time\n";
+                    output_part.innerHTML = "Character '" + output+"' occurs more than half the time\n";
                     
                     let cnt = 0; let n = input.length;
                     for(let i = 0; i<n;i++)
@@ -80,7 +80,7 @@ function checking_majority_element(event)
                                     cnt+=1;
                                 }
                         }
-                    document.getElementById("output2").innerHTML = "Count of "+ output +" = "+cnt + " / "+ n;
+                    document.getElementById("output2").innerHTML = "Count of '"+ output +"; out of total number of characters is "+cnt + " / "+ n;
                     document.getElementById("output2").style.fontSize = "20px";
                 }
         }
