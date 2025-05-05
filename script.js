@@ -80,7 +80,7 @@ function checking_majority_element(event)
                                     cnt+=1;
                                 }
                         }
-                    document.getElementById("output2").innerHTML = "Count of '"+ output +"; out of total number of characters is "+cnt + " / "+ n;
+                    document.getElementById("output2").innerHTML = "Count of '"+ output +"' out of total number of characters is "+cnt + " / "+ n;
                     document.getElementById("output2").style.fontSize = "20px";
                 }
         }
