@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finding if there is an element occurring N/2 times</title>
+    </head>
+    <body>
+        
+        <div class = "text" id = "intro_text">
+            <h1>We will apply Boyer Moore Majority Vote 
+            Algorithm to find if there is a character in the entered string which occurs more than 
+            half the time</h1>
+            <a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm">To know more about the algorithm, click here</a>
+        </div>
+        
+
+        <form name = "input_form" class = "text" id = "form_text" method="post">
+            <label for="input_string" ><h1>Enter your input string</h1></label> 
+            <input type = "text" name = "input_string">
+
+            <input type ="submit" onclick="checking_majority_element(event)">
+        </form>
+
+        <div class = "text" id = "confirm_input"></div>
+
+        <div class = "text" id = "output"></div>
+
+        <div class = "text" id = "output2"></div>
+
+        <script src = "script.js"></script>
+    </body>
+</html>
